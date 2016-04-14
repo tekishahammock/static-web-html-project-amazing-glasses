@@ -13,7 +13,7 @@ var blueDragon = {
 	image: 'images/blue-egg.jpeg',
 	name: 'Wise Azure Dragon Egg',
 	price: '§12,3456.00',
-	description: 'Daenerys donal noye arianne jeyne westerling eddard maegor bronn khal drogo nymeria shireen old nan meera reed.'
+	description: 'Daenerys donal noye arianne jeyne westerling eddard maegor bronn khal nan meera reed.'
 }
 
 var greenDragon = {
@@ -27,35 +27,35 @@ var whiteDragon = {
 	image:'images/white-egg.jpg',
 	name: 'Blue-Eyes White Dragon Egg',
 	price: '§12,3456.00',
-	description: 'Beric dondarrion dunk nymeria khal drogo. Nights king melisandre jojen gilly, jon snow chett sansa ygritte drogon lord of bones.'
+	description: 'Beric dondarrion dunk nymeria khal drogo. Nights king melisandre jojen lord of bones.'
 }
 
 var blackDragon = {
 	image:'images/black-egg.jpg',
 	name: 'Obsidian Demon Dragon Egg',
 	price: '§12,3456.00',
-	description: 'Mya stone summer ygritte, kevan patchface darkstar daenerys.'
+	description: 'Mya stone summer ygritte, kevan patchface darkstar tully quentyn brandon stark daenerys.'
 }
 
 var pinkDragon = {
 	image:'images/pink-egg.jpeg',
 	name: 'Amorous Rose Dragon Egg',
 	price: '§12,3456.00',
-	description: 'Eddard jaqen aerys, khal drogo stannis the hound margaery jeor mormont mya stone hoster tully quentyn brandon stark jorah.'
+	description: 'Eddard jaqen aerys, khal drogo stannis the hound margaery jeor mormont mya hoster jorah.'
 }
 
 var purpleDragon = {
 	image:'images/purple-egg.jpg',
 	name: 'Royal Violet Dragon Egg',
 	price: '§12,3456.00',
-	description: 'Hoster tully samwell jon connington summer aemon cersei sansa beric dondarrion nights king viserys kevan.'
+	description: 'Hoster tully samwell jon connington summer aemon cersei sansa beric  viserys kevan.'
 }
 
 var orangeDragon = {
 	image:'images/orange-egg.jpg',
 	name: 'Flaming Vermilion Dragon Egg',
 	price: '§12,3456.00',
-	description: 'Rhaegar aeron old nan, illyrio maester luwin aegon arthur dayne. '
+	description: 'Rhaegar aeron old nan, illyrio maester luwin aegon arthur daynedondarrion nights king. '
 }
 
 // THE ARRAY
@@ -70,10 +70,10 @@ var loopCount = dragonEggs.length
 
 for (var loopTracker = 0; loopTracker < loopCount; loopTracker += 1) {
 
-divDragon.innerHTML += 
-"<div>" + 
+divDragon.innerHTML +=
+"<div>" +
 "<img src='"+ dragonEggs[loopTracker].image + "'/>"
-+ 
++
 "<p>" + dragonEggs[loopTracker].name + "</p>"
 +
 "<p>" + dragonEggs[loopTracker].price + "</p>"
