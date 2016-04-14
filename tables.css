@@ -1,0 +1,24 @@
+table {
+	margin: 20px;
+}
+
+table,
+th,
+td {
+	border: 3px solid #2F4D12;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+caption {
+	font-size: 25px;
+	margin: 10px;
+}
+
+thead {
+	background-color: rgba(255,255,255, .4);
+}
+
+tbody {
+	background-color: rgba(255,255,255, .8);
+}
