@@ -5,7 +5,7 @@ table {
 table,
 th,
 td {
-	border: 3px solid #5C7A28;
+	border: 3px solid #2F4D12;
 	border-collapse: collapse;
 	padding: 10px;
 }
@@ -16,9 +16,9 @@ caption {
 }
 
 thead {
-	background-color: rgba(92,122,40, .6);
+	background-color: rgba(255,255,255, .4);
 }
 
 tbody {
-	background-color: rgba(216,160,54, .6);
+	background-color: rgba(255,255,255, .8);
 }
