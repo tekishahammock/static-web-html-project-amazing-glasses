@@ -14,7 +14,7 @@ body {
 	font-family: 'Paprika';
 	height: 300px;
 	background: linear-gradient(0deg, #5B7437, transparent 30%),
-							url(../images/arch-lake.jpeg) no-repeat center;
+							url(..images/arch-lake.jpeg) no-repeat center;
 	margin: 0;
 	background-size: cover;
 	padding-top: 100px;
